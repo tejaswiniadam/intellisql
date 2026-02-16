@@ -54,18 +54,16 @@ This project uses Google's Gemini AI model to understand user questions and auto
 ---
 
 ## Project Structure
-
+```
 IntelliSQL/
 │
-├── app.py              # Main Streamlit application
-│
-├── data.db             # SQLite database containing STUDENTS table
-│
-├── requirements.txt    # Required Python libraries for deployment
-│
-├── README.md           # Project documentation
+├── app.py # Main Streamlit application
+├── data.db # SQLite database containing STUDENTS table
+├── requirements.txt # Required Python libraries for deployment
+├── README.md # Project documentation
+└── .gitignore # Ignore sensitive files
 
-
+```
 ## Deployment
 
 This project is deployed using Streamlit Cloud.
