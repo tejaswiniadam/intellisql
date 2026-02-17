@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p, label {
 # -------------------------
 # GEMINI CLIENT
 # -------------------------
-client = genai.Client(api_key="AIzaSyALlaPC-P1cMZ484mUvdMYfsEVqOlHNcYk")
+client = genai.Client(api_key="Your_API_KEY")
 
 # -------------------------
 # GEMINI FUNCTION
@@ -139,3 +139,4 @@ if st.button("Generate SQL"):
     else:
 
         st.warning("Please enter a question.")
+
